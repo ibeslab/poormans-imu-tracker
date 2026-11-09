@@ -1,4 +1,10 @@
-# Dual USB MPU6050 → Madgwick → 3D arm
+# Poor Man’s IMU-BasedTracking
+
+
+
+https://github.com/user-attachments/assets/8415391e-0886-44d6-bed2-c0ff5d8cdbd6
+
+
 
 Quick classroom prototype using **two ESP8266 D1 Mini + GY-521 MPU6050**, each connected directly to the laptop by USB. The ESPs stream raw 6-axis IMU data at **100 Hz**, and the laptop independently runs the 6-axis Madgwick filter on both streams. **No Wi-Fi** is used.
 
